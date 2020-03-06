@@ -70,3 +70,12 @@ class Kontak extends REST_Controller {
 ?>
 
 setelah code diatas di save buka aplikasi postman dengan alamat http://127.0.0.1/rest_ci/index.php/kontak
+Penggunaan postman terdapat 4 cara yaitu GET, POST, PUT, dan DELETE
+GET
+Untuk menguji kode yang telah dibuat buka Postman, Pilih metode GET, masukan http://127.0.0.1/Rest_ci/index.php/kontak pada address bar lalu klik "Send".(Yang berfungsi sebagai menampilkan semua data)
+POST
+Untuk mengujinya buka Postman, pilih metode POST, masukan http://127.0.0.1/Rest_ci/index.php/kontak pada address bar, klik "Body" pada menu dibawah address bar, pilih x-www-form-urlencoded, masukan key dan value yang diperlukan (id, nama, nomor), lalu klik "Send".(Yang berfungsi sebagai menambah data)
+PUT
+Untuk mengujinya buka Postman, pilih metode PUT, masukan http://127.0.0.1/Rest_ci/index.php/kontak pada address bar, klik "Body" pada menu dibawah address bar, pilih x-www-form-urlencoded, masukan key id dan value id yang akan diubah (88) diikuti key dan value selanjutnya, lalu klik "Send".(Yang berfungsi sebagai mengedit dan mengupdate data)
+DELETE
+Untuk mengujinya buka Postman, pilih metode DELETE, masukan http://127.0.0.1/rest_ci/index.php/kontak pada address bar, klik "Body" pada menu dibawah address bar, pilih x-www-form-urlencoded, masukan key id dan value id yang akan dihapus (88), lalu klik "Send".(Yang berfungsi sebagai menghapus data)
